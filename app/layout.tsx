@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Espacios de Datos Federados | Gaia-X & Pontus-X',
+  description: 'Presentacion interactiva sobre los componentes de un espacio de datos federado: arquitectura Gaia-X tradicional y enfoque Web3 de DeltaDAO/Pontus-X',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -35,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className="font-sans antialiased">
         {children}
         <Analytics />
